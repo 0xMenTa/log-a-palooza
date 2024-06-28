@@ -14,3 +14,5 @@ Here are the steps to build the project:
 
 Further steps to be determined later...
 Note to self: Send the inputs each time the user presses "space" or "enter"?"
+
+UPDATE 28/06/2024 : The core of the keylogger seem to be done, The script is able to capture keystrokes from the keyboard and It can also interpret "Enter" and "Space" keystrokes in order to create a space or a line break and thus provide clearer data when the attacker reads the inputs. Now i want to create the random directory and a log file Which may seem legit.
