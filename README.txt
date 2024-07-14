@@ -18,3 +18,5 @@ Note to self: Send the inputs each time the user presses "space" or "enter"?"
 UPDATE 28/06/2024 : The core of the keylogger seem to be done, The script is able to capture keystrokes from the keyboard and It can also interpret "Enter" and "Space" keystrokes in order to create a space or a line break and thus provide clearer data when the attacker reads the inputs. Now i want to create the random directory and a log file Which may seem legit.
 
 UPDATE 28/06/2024 : The processus of creating a random directory and a fake legit file created inside it is done. the file is like "AVAST-Security-Check-[DATE]-[XXX] XXX for 3 randoms number (In case if the script is launched many times on same day). When I launch the script : Directory is created with random UUID4 -> a txt file -> the script capture all inputs, if its enter we write \n and if its space we write " ". All is made on Linux so we need to adapt that for Windows. My next goal is test it with a real firefox session but my VM crashed :/
+
+UPDATE 14/07/2024 : Keylogger is finished, I've also implemented the function that sends inputs each time the "Enter" key is pressed to a discord channel with a webhook.
