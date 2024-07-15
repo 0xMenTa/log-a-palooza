@@ -1,3 +1,7 @@
+#Coded by 0xM, use/change/modify as you wish.
+#Github: https://github.com/0xMenTa
+
+
 import keyboard
 import os
 import uuid
