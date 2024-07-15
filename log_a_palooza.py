@@ -21,7 +21,7 @@ discord.post(content=first_msg)
 def create_random_repertories():
     global filepath
     directory = str(uuid.uuid4())
-    parent_dir = "/home/menta/py/"
+    parent_dir = "PATH"
     filepath = parent_dir+directory
     os.mkdir(filepath)
 
